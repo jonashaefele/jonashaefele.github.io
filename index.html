@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+
+    This HTML file has been realised in a waterfall process and no wireframes or clickable prototypes have been created in the process, it isn't using any pre- or post-processors, no dependency management and no version control. It also doesn't have a testsuite.
+
+    However, it benefits from page-load optimising inline-stylesheets and is taking advantage of powerful APIs.
+
+    Say hi to Jonas @jonashaefele on Twitter and Github.
+
+  -->
+
+  <title>Jonas Haefele - Design, Code, Concepts</title>
+  <link href='http://fonts.googleapis.com/css?family=Karla:700,400' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="container">
+  <h1>Hi, I'm Jonas.</h1>
+  <h2>I'm a<img src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.6/assets/png/1f984.png">Designer/Developer</h2>
+  <h2>I'm currently creating transformative experiences at <a href="https://decoded.com" target="_blank"><img src="https://assets.decoded.com/d-components/img/decoded-round.svg">Decoded</a>.</h2>
+  <div class="social">
+  You can find me online:
+    <a class='twitter' href="https://twitter.com/jonashaefele" target="_blank">Twitter</a>
+    <a class='github' href="https://github.com/jonashaefele" target="_blank">GitHub</a>
+    <a class='linkedin' href="https://uk.linkedin.com/in/jonashaefele" target="_blank">LinkedIn</a>
+  </div>
+</div>
+<style type="text/css">
+  html, body {
+    height: 100%;
+    min-height: 100%;
+  }
+  body {
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    color: #666;
+  }
+  .container {
+    width:80 %;
+    height: 100%;
+    max-width: 1200px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+  }
+
+  h1, h2 {
+    font-weight: 400;
+    font-size: 4em;
+    letter-spacing: 1px;
+    margin-top: 0;
+  }
+
+  img {
+    max-height: 4rem;
+    max-width: 4rem;
+    margin: 0 .5rem -.5rem;
+  }
+  a {
+    color: #666;
+  }
+
+  .social {
+    margin-top:1em;
+    width: 100%;;
+    font-weight: 400;
+    font-size: 2em;
+  }
+
+  @media (min-width: 500px) {
+    body {
+      font-size: 16px;
+    }
+  }
+
+</style>
+</body>
+</html>
