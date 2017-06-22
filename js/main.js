@@ -1,1 +1,10 @@
-
+$(function(){
+  $('.social-toggle').click(function(e){
+    e.preventDefault();
+    $('body').addClass('social-active')
+  })
+  $('.close').click(function(e){
+    e.preventDefault();
+    $('body').removeClass('social-active')
+  })
+})
