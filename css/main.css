@@ -158,7 +158,7 @@ main aside {
   top: 9rem;
   bottom: 0;
   right: 0;
-  left: 4rem;
+  left: 0;
   overflow: hidden;
 }
 
@@ -201,7 +201,12 @@ main aside .scroller {
 }
 
 main aside section {
-  padding: 5rem 0;
+  padding: 0 0 5rem 0;
+}
+
+main aside section h2,
+main aside section h3 {
+  padding-top: 5rem;
 }
 
 footer {
@@ -386,15 +391,21 @@ h2 {
     Maximal Width
    =============== */
     .title {
-      font-size: 7rem;
+      font-size: 6rem;
+    }
+
+    .header {
+      padding: 1rem 3rem;
     }
 
     main {
       top: 5rem;
+      left: 2rem;
     }
 
     main aside {
-      left: 60%;
+      left: 50%;
+      right: 3rem;
     }
 }
 
